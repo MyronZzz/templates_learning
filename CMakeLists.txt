@@ -3,4 +3,6 @@ project(templates_learning)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(chapter1 chapter_2_function_template.cpp)
+add_executable(chapter2_function_template chapter2_function_template.cpp)
+add_executable(chapter3_class_template chapter3_class_template.cpp chapter3_class_template.h)
+add_executable(chapter3_template_specialization chapter3_template_specialization.cpp chapter3_template_specialization.h)
